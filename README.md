@@ -3,7 +3,7 @@
 Cómputo Paralelo y Distribuido (TI155), grupo 7C, Universidad del Valle de Puebla.
 Profesor: Jorge Arturo Flores López.
 
-Equipo: Camila Serrano Trinidad, Irais Macuil Chapuli, Misael Reynoso Aguayo y Christian Luna Ortiz.
+Equipo: Misael Reynoso Aguayo, Camila Serrano Trinidad, Christian Luna Ortiz e Irais Gisela Macuil Chapuli.
 
 El programa cuenta frecuencias de eventos en un CSV de 5.28 GiB (tienda en línea, octubre de 2019) y lo hace de tres formas:
 
