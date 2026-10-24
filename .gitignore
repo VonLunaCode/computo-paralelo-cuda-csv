@@ -1,0 +1,10 @@
+# Datos: el CSV real pesa 5.28 GiB (se baja de Kaggle) y el sintético se regenera
+data/
+
+# Entornos y cachés
+.venv/
+__pycache__/
+*.pyc
+
+# Pruebas locales
+rep_test/
