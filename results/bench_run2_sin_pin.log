@@ -1,0 +1,33 @@
+Leyendo data/2019-Oct.csv ...
+  5.28 GiB en 5.1s
+
+=== 50%  (2703 MiB) ===
+  secuencial           4.871 s
+  multihilo p=2         4.005 s   x 1.22
+  multihilo p=4         2.039 s   x 2.39
+  multihilo p=8         1.102 s   x 4.42
+  multihilo p=16        0.572 s   x 8.51
+  multihilo p=32        0.346 s   x14.06
+  GPU PCIe 0.264 s | kernel 0.067 s | total 0.331 s   x72.8 puro / x14.7 real
+
+=== 75%  (4055 MiB) ===
+  secuencial           7.509 s
+  multihilo p=2         5.586 s   x 1.34
+  multihilo p=4         2.841 s   x 2.64
+  multihilo p=8         1.630 s   x 4.61
+  multihilo p=16        0.849 s   x 8.85
+  multihilo p=32        0.548 s   x13.70
+  GPU PCIe 0.395 s | kernel 0.101 s | total 0.496 s   x74.2 puro / x15.1 real
+
+=== 100%  (5406 MiB) ===
+  secuencial           9.692 s
+  multihilo p=2         8.253 s   x 1.17
+  multihilo p=4         3.738 s   x 2.59
+  multihilo p=8         2.210 s   x 4.38
+  multihilo p=16        1.127 s   x 8.60
+  multihilo p=32        0.613 s   x15.82
+  GPU PCIe 0.471 s | kernel 0.134 s | total 0.604 s   x72.5 puro / x16.0 real
+
+Referencia 1 hilo GPU (48 MiB): 4.07 s  vs CPU seq 0.08 s
+
+Guardado en results/results.json
